@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.187" tests="4" skipped="0" failures="3" errors="0" timestamp="2026-10-13T08:42:03.899925300Z">
+<testcase classname="user have to validate login functionality with username and password" name="" time="10.645">
+<system-out><![CDATA[
+Given user have to max chrome browser and wait for few sec..................passed
+When user have to pass the valid username and password and need to click login button.passed
+And user have to validate dashboard.........................................passed
+Then user have to close the tab.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user have to validate login functionality with username and password" name="" time="11.676">
+<failure type="java.lang.AssertionError" message="login passed expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: login passed expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.step1.StepDefinition.user_have_to_validate_dashboard(StepDefinition.java:73)
+	at ✽.user have to validate dashboard(file:///E:/eclipse/eclipse%20proj/CucumberProject/src/test/resources/FeatureFile/login.feature:46)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user have to max chrome browser and wait for few sec..................passed
+When user have to pass the invalid username and invalid password and need to click login button.passed
+And user have to validate dashboard.........................................failed
+Then user have to close the tab.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="user have to validate login functionality with username and password" name="" time="12.031">
+<failure type="java.lang.AssertionError" message="login passed expected [https://adactinhotelapp.com/SearchHotel.php] but found [http://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: login passed expected [https://adactinhotelapp.com/SearchHotel.php] but found [http://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.step1.StepDefinition.user_have_to_validate_dashboard(StepDefinition.java:73)
+	at ✽.user have to validate dashboard(file:///E:/eclipse/eclipse%20proj/CucumberProject/src/test/resources/FeatureFile/login.feature:35)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user have to max chrome browser and wait for few sec..................passed
+When user have to pass the valid username and invalid password and need to click login button.passed
+And user have to validate dashboard.........................................failed
+Then user have to close the tab.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="user have to validate login functionality with username and password" name="" time="11.966">
+<failure type="java.lang.AssertionError" message="login passed expected [https://adactinhotelapp.com/SearchHotel.php] but found [http://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: login passed expected [https://adactinhotelapp.com/SearchHotel.php] but found [http://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.step1.StepDefinition.user_have_to_validate_dashboard(StepDefinition.java:73)
+	at ✽.user have to validate dashboard(file:///E:/eclipse/eclipse%20proj/CucumberProject/src/test/resources/FeatureFile/login.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user have to max chrome browser and wait for few sec..................passed
+When user have to pass the invalid username and valid password and need to click login button.passed
+And user have to validate dashboard.........................................failed
+Then user have to close the tab.............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
